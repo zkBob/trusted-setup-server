@@ -90,9 +90,9 @@ function attestationWatcher() {
     }
   })
 
-  setTimeout(() => {
-    attestationWatcher()
-  }, TWITTER_INTERVAL_ATTESTATION)
+  // setTimeout(() => {
+  //   attestationWatcher()
+  // }, TWITTER_INTERVAL_ATTESTATION)
 }
 
 module.exports = attestationWatcher

@@ -13,4 +13,4 @@ COPY --from=bin /wasm/phase2_bg.wasm /app/static/_nuxt/lib/phase2/
 
 EXPOSE 3000
 HEALTHCHECK CMD curl -f http://localhost:3000/
-CMD ["yarn", "start"]
+# CMD ["sleep", "999999"]
